@@ -14,9 +14,9 @@ export const InputArea: React.FC<Props> = (props: Props) => {
 
   return (
     <>
-      <p className="font-bold text-teal-text mb-1">{props.title}</p>
+      <p className="font-bold text-gray-500 mb-1">{props.title}</p>
       <input
-        className="bg-color-500 bg-teal-input border-teal-base border-2 rounded-md w-full h-10 pl-2"
+        className="bg-color-500 border-gray-500 border-2 rounded-md w-full h-10 pl-2"
         onChange={modifyText}
         type={props.type}
       />

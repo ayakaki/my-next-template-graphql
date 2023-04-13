@@ -27,7 +27,7 @@ export const LoginButton = (props: Props) => {
       <button
         onClick={login}
         type="button"
-        className="w-2/3 bg-teal-base text-white py-2 rounded-full shadow-2xl h-12"
+        className="w-2/3 bg-gray-500 text-white py-2 rounded-full shadow-2xl h-12"
       >
         ログイン
       </button>

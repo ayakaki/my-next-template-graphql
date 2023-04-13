@@ -7,7 +7,7 @@ export const HeaderMenuItems: React.FC = () => {
     <div className="flex">
       <div className="flex items-center">
         <HeaderMenuItem url={PAGE_URLS.TOP} text="TOP" />
-        <HeaderMenuItem url={PAGE_URLS.BRANDS} text="ブランド一覧" />
+        <HeaderMenuItem url={PAGE_URLS.COMPANY} text="会社一覧" />
         <HeaderProfileIcon />
       </div>
     </div>
